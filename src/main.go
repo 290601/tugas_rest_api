@@ -1,6 +1,7 @@
 package main
 
 import (
+	"tugas-rest-api/controllers/gamescontroller"
 	"tugas-rest-api/controllers/userscontroller"
 	"tugas-rest-api/models"
 
@@ -25,8 +26,22 @@ func main() {
 	})
 
 	// Endpoint API
+
+	// 1. Users
 	r.GET("/rest/api/users", userscontroller.ShowAll)
 	r.GET("/rest/api/users/:id", userscontroller.Show)
+	r.POST("/rest/api/user", userscontroller.Create)
+	r.PUT("/rest/api/user/:id", userscontroller.Update)
+	r.DELETE("/rest/api/user/:id", userscontroller.Delete)
+
+	r.GET("/rest/api/password/:id", userscontroller.ComparePassword) // Untuk mengcompare password
+
+	// 2. Games
+	r.GET("/rest/api/games", gamescontroller.ShowAll)
+	r.GET("/rest/api/games/:id", gamescontroller.Show)
+	r.POST("/rest/api/game", gamescontroller.Create)
+	r.PUT("/rest/api/game/:id", gamescontroller.Update)
+	r.DELETE("/rest/api/game/:id", gamescontroller.Delete)
 
 	r.Run()
 }
