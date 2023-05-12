@@ -91,16 +91,26 @@ Langkah-langkah proses setup program adalah sebagai berikut:
     <tr>
         <td>1.</td>
         <td>Ichda Maulana Ramadhan Pelis</td>
-        <td>13521008</td>
+        <td>201402134</td>
     </tr>
     <tr>
         <td>2.</td>
         <td>Alessandro Siburian</td>
-        <td>13521014</td>
+        <td>201402095</td>
     </tr>
     <tr>
         <td>3.</td>
         <td>Rahmad Adli Harahap</td>
-        <td>13521028</td>
+        <td>201402014</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>Asad Iqbal</td>
+        <td>201402149</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>Anthony De Rivaldo</td>
+        <td>201402119</td>
     </tr>
 </table>
