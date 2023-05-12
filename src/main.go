@@ -2,6 +2,7 @@ package main
 
 import (
 	"tugas-rest-api/controllers/gamescontroller"
+	"tugas-rest-api/controllers/kepemilikancontroller"
 	"tugas-rest-api/controllers/userscontroller"
 	"tugas-rest-api/models"
 
@@ -42,6 +43,12 @@ func main() {
 	r.POST("/rest/api/game", gamescontroller.Create)
 	r.PUT("/rest/api/game/:id", gamescontroller.Update)
 	r.DELETE("/rest/api/game/:id", gamescontroller.Delete)
+
+	// 3. Kepemilikan
+	r.GET("/rest/api/kepemilikan", kepemilikancontroller.ShowAll)
+	r.GET("/rest/api/kepemilikan/:id", kepemilikancontroller.Show)
+	r.POST("/rest/api/kepemilikan", kepemilikancontroller.Create)
+	r.DELETE("/rest/api/kepemilikan/:id", kepemilikancontroller.Delete)
 
 	r.Run()
 }

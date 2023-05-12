@@ -1,4 +1,4 @@
-package kepemilikancontrollergo
+package kepemilikancontroller
 
 import (
 	"net/http"
