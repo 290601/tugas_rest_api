@@ -15,29 +15,26 @@ Repository ini berisi implementasi REST API sederhana menggunakan bahasa pemrogr
 
 ## Endpoint
 1. Bagian Users terdiri dari 5 endpoint, yaitu:
-**GET** */rest/api/users* → Menampilkan daftar seluruh pengguna.
-**GET** */rest/api/users/:id* →Menampilkan data pengguna berdasarkan ID pengguna.
-**POST** */rest/api/user* → Membuat pengguna baru.
-**PUT** */rest/api/user/:id* → Memperbarui data pengguna berdasarkan ID pengguna.
-**DELETE** */rest/api/user/:id* → Menghapus data pengguna berdasarkan ID pengguna.
+- **GET** */rest/api/users* → Menampilkan daftar seluruh pengguna.
+- **GET** */rest/api/users/:id* →Menampilkan data pengguna berdasarkan ID pengguna.
+- **POST** */rest/api/user* → Membuat pengguna baru.
+- **PUT** */rest/api/user/:id* → Memperbarui data pengguna berdasarkan ID pengguna.
+- **DELETE** */rest/api/user/:id* → Menghapus data pengguna berdasarkan ID pengguna.
 Selain itu, ada juga endpoint **GET** /rest/api/password/:id yang digunakan untuk membandingkan password pengguna berdasarkan ID pengguna.
 
 2. Bagian Games terdiri dari 5 endpoint, yaitu:
-**GET** */rest/api/games* → Menampilkan daftar seluruh game.
-**GET** */rest/api/games/:id* → Menampilkan data game berdasarkan ID game.
-**POST** */rest/api/game* → Membuat game baru.
-**PUT** */rest/api/game/:id* → Memperbarui data game berdasarkan ID game.
-**DELETE** */rest/api/game/:id* → Menghapus data game berdasarkan ID game.
+- **GET** */rest/api/games* → Menampilkan daftar seluruh game.
+- **GET** */rest/api/games/:id* → Menampilkan data game berdasarkan ID game.
+- **POST** */rest/api/game* → Membuat game baru.
+- **PUT** */rest/api/game/:id* → Memperbarui data game berdasarkan ID game.
+- **DELETE** */rest/api/game/:id* → Menghapus data game berdasarkan ID game.
 
 3. Bagian Kepemilikan terdiri dari 4 endpoint, yaitu:
-**GET** */rest/api/kepemilikan* → Menampilkan daftar seluruh kepemilikan game.
-**GET** */rest/api/kepemilikan/:id* → Menampilkan data kepemilikan game berdasarkan ID kepemilikan.
-**POST** */rest/api/kepemilikan:* → Membuat kepemilikan game baru.
-**DELETE** */rest/api/kepemilikan/:id* → Menghapus data kepemilikan game berdasarkan ID kepemilikan.
+- **GET** */rest/api/kepemilikan* → Menampilkan daftar seluruh kepemilikan game.
+- **GET** */rest/api/kepemilikan/:id* → Menampilkan data kepemilikan game berdasarkan ID kepemilikan.
+- **POST** */rest/api/kepemilikan:* → Membuat kepemilikan game baru.
+- **DELETE** */rest/api/kepemilikan/:id* → Menghapus data kepemilikan game berdasarkan ID kepemilikan.
 
-Selain itu, history dari pertanyaan yang dimasukkan akan disimpan ke dalam sebuah section pertanyaan untuk sebuah sesi. Pengguna juga dapat menambahkan section baru dengan mengklik add new history. 
-
-Untuk pembuatan program ini, pembuatan frontend dilakukan dengan menggunakan bahasa pemrograman HTML, CSS, dan juga Javascript dengan menggunakan Framework React. Untuk Backend dari program dibuat dengan menggunakan bahasa pemrograman Golang. Sedangkan untuk penyimpanan database menggunakan MySQL.
 
 ## Struktur File
 
